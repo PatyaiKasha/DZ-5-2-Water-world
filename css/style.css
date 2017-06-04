@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.world {
+  position: relative;
+  width: 560px;
+  height: 447px;
+  background-color: #80CDC6;
+  overflow: hidden; }
+  .world img[alt="world"] {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10; }
+  .world img[alt="clouds"] {
+    position: absolute;
+    height: 125px;
+    top: -8px;
+    right: -4px;
+    z-index: 10; }
+  .world img[alt="water"] {
+    position: absolute;
+    bottom: 7px;
+    z-index: 30;
+    width: 101%; }
+  .world img[alt="wooden-ship"] {
+    height: 117px;
+    position: absolute;
+    bottom: 44px;
+    left: 15px;
+    z-index: 20; }
+
+/*# sourceMappingURL=style.css.map */
